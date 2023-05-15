@@ -2,6 +2,8 @@
     overflow:hidden; 
     overflow-y:scroll;
     height: 650px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .UserPage::-webkit-scrollbar {
     width: 10px;
