@@ -1,0 +1,80 @@
+.input__container {
+    position: relative;
+    background: #282828;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 15px;
+    max-width: 300px;
+    transition: transform 400ms;
+    transform-style: preserve-3d;
+    transform: rotateX(15deg) rotateY(-20deg);
+    perspective: 500px;
+    box-shadow: rgb(12, 12, 12)0px 0px 5px 5px;
+  }
+  
+  .input__button__shadow {
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: transform 400ms, background 400ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 7px;
+    margin-left:10px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .input__button__shadow:hover {
+    background: rgba(197, 196, 196, 0.411);
+    box-shadow:  0px 1px 10px #ffffff;
+  }
+  
+  .input__search {
+    width: 150px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin-top: 7px;
+    box-shadow:  1px 1px 10px #ffffff;
+    color: #0f0e0e;
+  }
+
+.onlyStyle{
+  display: flex;
+}
+
+.StyleNavBar{
+  background-color: #0f0e0e;
+  box-shadow:  1px 1px 10px #0f0e0e;
+  margin-top: 10px;
+  border-radius: 12px;
+  height: 110px;
+  margin-bottom: 10px;
+  display: flex;
+  color: white;
+}
+
+.indexbuttons{
+  width: 100px;
+}
+.pags{
+  margin-top: 10px;
+  margin-left: 15px;
+  color: white;
+}
+.home{
+  color: white;
+}
+.colorBack{
+  background-color: #0f0e0e;
+  height:50px;
+  border-radius: 10px;
+  box-shadow:  1px 1px 10px #0f0e0e;
+}

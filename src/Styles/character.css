@@ -1,0 +1,10 @@
+.character{
+    background-color: rgb(126, 126, 126);
+    margin-left: 15px;
+    position: fixed;
+    color: aqua;
+    width: 400px;
+    height: 100%;
+    z-index: 100;
+    margin-top: 690px;
+}

@@ -1,0 +1,67 @@
+.dynamic-container {
+  text-align: left;
+  color: aliceblue;
+  transform-style: preserve-3d; /* Agrega esta línea */
+}
+
+.lastbox{
+  background-color: #0f0e0e;
+  border-radius: 10px;
+  box-shadow:  1px 1px 10px #0f0e0e;
+  transform-style: preserve-3d; /* Agrega esta línea */
+  margin-bottom: 10px;
+}
+
+.dynamic-link {
+  display: block;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 7px;
+  position: relative;
+  transform-style: preserve-3d; /* Agrega esta línea */
+  color: white;
+}
+
+.dynamic-link:hover {
+  color: #f00;
+  
+}
+
+.dynamic-link:hover::before {
+  opacity: 1;
+  
+}
+
+.dynamic-link.active::before {
+  opacity: 1;
+  color: black;
+}
+
+.cube {
+  position: absolute;
+  left: -30px;
+  margin-left: 140px;
+  width: 20px;
+  height: 20px;
+  background-image: url('./assets/pointer4.png');
+  background-size: cover;
+  animation: move 0.5s infinite alternate;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+@keyframes move {
+  0% { left: -30px; }
+  100% { left: -10px; } /* El cubo se mueve solo un poco */
+}
+
+.dynamic-link:hover .cube,
+.dynamic-link.active .cube {
+  opacity: 1;
+}
+
+.disable-link {
+  pointer-events: none;
+  color: #999;
+}

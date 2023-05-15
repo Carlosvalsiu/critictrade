@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin-left: 80px;
+    margin-top: 80px;
+    transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    background-color: #3b3b3b;
+}
+
+/* navbar  */
+header{
+    width: 100%;
+    height: 80px;
+    /* background: #f5f5f5; */
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+
+/* desplegable icon  */
+icon__menu{
+    width: 1150px;
+    height: 100%;
+    display: flex;
+    margin-left: 1500px;
+    transform: translateX(10px);
+}
+
+
+#icon__menu i{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    background-color: grey;
+    height: 150px;
+    width: 40px;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+
+/* side menu css */
+.menu__side{
+    width: 145px;
+    margin-left: 10px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    color: white;
+    font-size: 18px;
+    z-index: 300;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+
+
+
+.options__menu{
+    width: 75px;
+    padding: 300px 30px;
+    top: 80px;
+}
+
+/* icon style */
+.options__menu a{
+    color: #ffffffb2;
+    cursor: default;
+    display: block;
+    position: relative;
+    transition: color 300ms;
+    width: 200px;
+}
+
+.options__menu .option{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.options__menu .option i{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/* clicable menu options */
+.options__menu .option h4{
+    font-weight: 300;
+    cursor: pointer;
+}
+
+a.selected{
+    color: #fff;
+}
+
+/* inicio page select */
+.selected:before{
+    content: '';
+    width: 3px;
+    height: 80%;
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: -30px;
+}
+
+
+/* buton de desplegable */
+/*Clases para usar en JavaScript*/
+
+.body_move{
+    margin-right: 250px;
+}
+
+
+/* sidebar width */
+.menu__side_move{
+    width: 400px;
+    display: flex;
+}
+
+/* //////////////////////////////// */
+
+    
+.secondSide{ 
+    width: 100%;
+    min-height: 100vh;
+    margin-top: auto;
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+}
+
+/* side menu css */
+.perfilmenu{
+    width: 145px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 18px;
+    z-index: 300;
+    overflow: hidden;
+    overflow-y: scroll;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+/*Ocultar scroll para chrome, safari y opera*/
+.perfilmenu::-webkit-scrollbar{
+    display: none;
+}
+
+/*Ocultar scroll para IE, Edge y Firefox*/
+
+
+.sidePorcentaje{
+    height: 250px;
+}
+.sideCriticts{
+    background-color:black;
+    height: 290px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+
+.marginSlide{
+background-color: #101010;
+width: 90%;
+margin-right: 300px;
+height: 300px;
+}
+
+.extend {
+    display: flex;
+}
+
+.ComonBox{
+    display: flex;
+}
+.box1{
+    background-color: black;
+    height: 100%;
+    margin-top: 210px;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 65px;
+    margin-left: 85px;
+    box-shadow: 0px 0px 10px 10px #2e2e2e ;
+    z-index: 50;
+
+}
+.box2{
+    position: fixed;
+    background-color: #0f0e0e;
+    height: 100%;
+    margin-top: 210px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    width: 100%;
+
+}
+.slidebuton{
+    color: #101010;
+    height: 20px;
+    margin-top: 350px;
+    margin-left: 60px;
+
+}
+.rateCritic{
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    background-color: #30e849;
+    margin-top: 20px;
+    margin-left: 35px;
+    z-index: 100;
+}
+.interiorCritics{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background-color: #000000;
+    margin-top: 5px;
+    margin-left:5px;
+    z-index: 100;
+    position: absolute;
+}
+.iconsStile{
+    width:40px;
+    height:90px;
+}
+
+.SteemiconsStile{
+    width:40px;
+    margin-top: 2px;
+}
+
+.icons{
+    margin-top: 70px;
+    
+}
+.TheCritics{
+    margin-left: 20px;
+}
+
+.ul{
+    height:250px; 
+    width:18%;
+    background-color: #3b3b3b;
+    margin-top: 15px;
+    width: 220px;
+    position: relative;
+    border-radius: 5px;
+    text-align: left;
+}
+.ul{
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+.ul::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  
+  .ul::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);    
+    border-radius: 10px;      
+    border: 3px solid #3b3b3b; 
+  }
+
+
+.Critica{
+    background-color: #0f0e0e;
+    margin-left:3px;
+    margin-top: 7px;
+    border-radius: 5px;
+    height: 100px;
+    overflow: hidden;
+}
+.CriticName{
+    margin-left: 9px;
+    padding-top: 8px;
+    text-decoration:underline
+}
+.DescriptionCrit{
+    margin-left: 9px;
+    margin-top: 5px;
+}
+.likeIcon{
+    width:50px;
+    height:50px;
+    margin-left: 3px;
+    margin-top: px;
+}
+.LikeDislikeS{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.like{
+
+    font-family: Minecraft;
+    color: #30e849;
+    font-size: 25px;
+}
+.dislike{
+    margin-left: 30px;
+    font-family: Minecraft;
+    color: red;
+    font-size: 25px;
+
+}
+.iconLog{
+    color: #30e849;
+
+}
+
+
+

@@ -1,0 +1,25 @@
+.footer{
+    background-color: #282828;
+    border-bottom-left-radius: 70px;
+    height: 30px;
+}
+.fade{
+    background-color: rgb(19, 18, 18);
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+}
+.fade2{
+    background-color: #282828;
+    width: 100px;
+
+}
+.fadetipe{
+    display: flex;
+}
+.footer2{
+    background-color:rgb(19, 18, 18);
+    height: 170px;
+    margin-top: 30px;
+    border-top-right-radius: 30px;
+}

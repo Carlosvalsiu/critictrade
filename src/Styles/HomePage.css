@@ -1,0 +1,27 @@
+.HomePage{
+    color: white;
+    text-align: center;
+}
+.staly{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.TitleHome{
+    margin-top: 40px;
+    font-family: SF Distant Galaxy;
+    font-size: 30px;
+}
+.head1{
+    background-image: url(./assets/head.jpg);
+    height: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.fadehead{
+    background-color: #282828;
+    height: 70px;
+    margin-top: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}

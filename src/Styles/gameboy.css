@@ -1,0 +1,83 @@
+.perfilmenu{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.gameboy{
+    background-color: #282828;
+    border-radius: 0px 10px;
+    height: 210px;
+    width: 700px;
+    margin-top: auto;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.mainBody{
+    background-color: #1a1a1a;
+    height: 206px;
+    box-shadow: 10px ;
+    border-radius: 0px  10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.lastBody{
+    background-color: #101010;
+    border-radius:0px 10px;
+    height: 203px;
+}
+
+.GameBoyExtension{
+    height: 210px;
+    position: fixed;
+    width: 100%;
+    color: #1a1a1a;
+    text-align: left;
+    display: flex;
+    z-index:100;
+}
+.BodyExtension{
+    background-color: #000000;
+    border-bottom-left-radius: 20px;
+    height: 210px;
+    width:270px;
+    margin-top: auto;
+    padding-left: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    position: absolute;
+}
+.BodyExtension2{
+    background-color: rgb(42, 42, 42);
+    height: 208px;
+    width: 145px;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px px 2px rgb(42, 42, 42);
+}
+.BodyExtensionLast{
+    background-color: #1b1b1b;
+    border-bottom-left-radius: 10px;
+    height: 198px;
+    width: 130px;
+    position: relative; 
+    margin-left: 8px;
+    box-shadow: 0px 0px 7px 2px #1b1b1b;
+}
+.perfirlBox{
+    display: flex;
+}
+
+
+
+/* 
+.LastPitBoyBorder{
+    background-color: #101010;
+    margin-left: 3px;
+    position: fixed;
+    width: 100%;
+    height: 202px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 0px 10px 2px #101010;
+} */
