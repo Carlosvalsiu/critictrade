@@ -23,7 +23,7 @@ export const HomePage = () => {
                 <SlideHomepages/>
               </div>
               <div>
-                <div>hola</div>
+                <div>jhdah</div>
                 <div>hola</div>
                 <div>hola</div>
                 <div>hola</div>
