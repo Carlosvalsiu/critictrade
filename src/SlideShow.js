@@ -32,7 +32,7 @@ export function Slideshow() {
 
   return (
     <div className="slideshow-container">
-      <img src={imageChanger()} style={{ width: "200px" }} />
+      <img src={imageChanger()} style={{ width: "200px" }} alt="imagechanger"/>
       <div className={slideIndex === 0 ? "mySlides fade show" : "mySlides fade"}>
     </div>
       <div style={{ textAlign: "center" }}>
