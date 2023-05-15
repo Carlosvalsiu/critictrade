@@ -3,7 +3,6 @@ import './Styles/Serchengine.css'
 import { Serchengine } from "./serchEngine";
 import './App.css';
 import { PageMainSyte } from "./PageMainSyte";
-import { HomePage } from "./pages/HomePage";
 
 export const MainBox = () => {
     return (

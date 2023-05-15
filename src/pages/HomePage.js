@@ -1,8 +1,6 @@
 import React from "react";
 import '../Styles/HomePage.css'
-import { Indivi } from "@mui/icons-material";
 import { SlideHomepages } from "../FirstBox/ComponentPage";
-import { Profile } from '../porfile';
 import { FooterPage } from "./FooterPage"; 
 
 export const HomePage = () => {

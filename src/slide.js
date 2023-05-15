@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { useAuth0 } from '@auth0/auth0-react';
 import './Styles/button.css';
 import './Styles/character.css';
 import './Styles/estilos.css';
@@ -12,7 +11,6 @@ import { defineElement } from 'lord-icon-element';
 import { Profile } from './porfile';
 import { ConditionalProfile } from './conditionalProfile';
 import { Conditional } from './Conditional';
-import { Link } from "react-router-dom";
 
 defineElement(lottie.loadAnimation);
 

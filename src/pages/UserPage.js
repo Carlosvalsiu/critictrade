@@ -1,7 +1,6 @@
 import React from "react";
 import '../Styles/Userpage.css'
 import '../Styles/Firstzone.css'
-import { Profile } from '../porfile';
 import { ApiProfilrSlider } from "../FirstBox/ApiProfilrSlider";
 import { FooterPage } from "./FooterPage";
 
