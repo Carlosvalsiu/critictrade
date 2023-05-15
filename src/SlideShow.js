@@ -11,13 +11,10 @@ export function Slideshow() {
     switch (slideIndex) {
       case 0:
         return image1
-        break;
       case 1:
         return image2
-        break;
       case 2:
         return image3 
-        break;
       default:
         break;
     }

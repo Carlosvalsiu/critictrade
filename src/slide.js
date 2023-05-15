@@ -89,7 +89,7 @@ export function SideMenu() {
                                                 </div>
                                             </div>
                                             <div className="levelLife">
-                                                <img src={cora} className="live"></img>
+                                                <img src={cora} className="live"/>
                                                 <div className="level">Nv. 12</div>
                                             </div>
                                         </div>
