@@ -4,7 +4,7 @@ import { HomePage } from "../pages/HomePage";
 import { GroupsPage } from "../pages/GroupsPage";
 import { ComunityPage } from "../pages/ComunityPage";
 import { CriticasPage } from "../pages/CriticasPage";
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {Switch,Route} from 'react-router-dom';
 import { ProfileLogInfo } from "../pages/ProfileLogInfo";
 
 
