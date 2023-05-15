@@ -68,7 +68,7 @@ export const IndexNavBar = () => {
         <DynamicLink
           to="/Criticas"
           icon={<AiFillFileText />}
-          text=" &nbsp;&nbsp;Criticas"
+          text=" &nbsp;&nbsp;Critics"
           onClick={() => handleLinkClick(4)}
           isActive={selectedLink === 4}
         />

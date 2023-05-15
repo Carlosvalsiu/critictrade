@@ -6,9 +6,9 @@ export const ConditionalProfile = () => {
     const { isAuthenticated} = useAuth0();
   
     if (isAuthenticated) {
-      return <Link className="PerfilButton" to='/Perfil'>Perfil</Link>;
+      return <Link className="PerfilButton" to='/Perfil'>Profile</Link>;
     }
     else{
-        return 'logeate';
+        return 'Log In';
     }
 };

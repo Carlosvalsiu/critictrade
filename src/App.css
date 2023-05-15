@@ -61,3 +61,19 @@
 .EstileChange{
   border-top-left-radius: 10px;
 }
+.LOGOUT{
+  background-image: url(./Styles/assets/fondouserlog.gif);
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: 2.5px;
+  margin-left: 5px;
+}
+
+.lock{
+  margin-top: 2.5px;
+  width: 105px;
+  height: 105px;
+  position: absolute;
+}
