@@ -7,13 +7,14 @@ import './Styles/gameboy.css';
 import './Styles/liveLevel.css';
 import './Styles/pitBoy.css';
 import cora from './Styles/assets/hearth.svg'
-import 'https://cdn.lordicon.com/ritcuqlt.js'
+import lottie from 'lottie-web';
+import { defineElement } from 'lord-icon-element';
 import { Profile } from './porfile';
 import { ConditionalProfile } from './conditionalProfile';
 import { Conditional } from './Conditional';
 import { Link } from "react-router-dom";
 
-
+defineElement(lottie.loadAnimation);
 
 export function SideMenu() {
 
@@ -125,7 +126,7 @@ export function SideMenu() {
                             </div>
                             <div className="box1">
                                 <div className="icons">
-                                    <lord-icon src="https://cdn.lordicon.com/iiixgoqp.json" trigger="hover"
+                                    <lord-icon src='https://cdn.lordicon.com/iiixgoqp.json' trigger="hover"
                                         colors="primary:#ffffff" class="iconsStile">
                                     </lord-icon>
                                     <lord-icon src="https://cdn.lordicon.com/bhfjfgqz.json" trigger="hover"
