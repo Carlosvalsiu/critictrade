@@ -112,6 +112,11 @@
 .buttonsPit{
     display: flex;
 }
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../ttf/Minecraft.ttf') format('truetype');
+    /* Puedes agregar más estilos a tu fuente personalizada aquí */
+}
 .PerfilButton{
     width:160px;
     height: 40px;
